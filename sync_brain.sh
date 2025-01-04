@@ -14,4 +14,4 @@
 #     echo no server
 # fi
 
-rsync -Pa --delete -e 'ssh -i /sdcard/brain/keys/hetzner1 -p 5001' --exclude '*.mp4' --exclude '*venv*' --exclude '*mail*' mahmooz@95.217.0.99:/home/mahmooz/brain /sdcard
+rsync -Pa --delete -e 'ssh -i /sdcard/brain/keys/hetzner1 -p 5001' --exclude '*.mp4' --exclude '*venv*' --exclude '*mail*' mahmooz@95.217.15.125:/home/mahmooz/brain /sdcard
