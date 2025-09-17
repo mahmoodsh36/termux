@@ -17,4 +17,5 @@
 # rsync -Pa --delete -e 'ssh -i /sdcard/brain/keys/hetzner1' --exclude '*.mp4' --exclude '*venv*' --exclude '*mail*' mahmooz@mahmooz:/home/mahmooz/brain /sdcard
 
 # exclude all except specific files
-rsync --archive -e 'ssh -i /sdcard/brain/keys/hetzner1' --update --prune-empty-dirs --include='*.pdf' --include='*.org' --include='*/' --exclude='*' mahmooz@mahmooz:/home/mahmooz/brain /sdcard
+# rsync --archive -e 'ssh -i /sdcard/brain/keys/hetzner1' --update --prune-empty-dirs --include='*.pdf' --include='*.org' --include='*/' --exclude='*' mahmooz@mahmooz1:/home/mahmooz/brain /sdcard
+rsync --archive -e 'ssh -i /sdcard/brain/keys/hetzner1' --update --prune-empty-dirs --include='*.pdf' --include='*.org' --include='*/' --exclude='*' mahmooz@100.64.0.2:/home/mahmooz/brain /sdcard
